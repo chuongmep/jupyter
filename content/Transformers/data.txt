@@ -1,0 +1,38 @@
+To test your Flask API with example data using Postman, you can follow these steps:
+
+Start your Flask API by running the app.py script. Make sure it's running on your local machine, typically at http://localhost:5000.
+
+Open Postman, if you haven't already installed it, download and install it from the Postman website.
+
+Create a new request in Postman:
+Open Postman.
+Click the "New" button to create a new request.
+Enter a name for your request, e.g., "Ask Question."
+
+Set the request type to "POST":
+In the request tab, select "POST" from the dropdown menu.
+
+Set the request URL to your API endpoint:
+In the URL field, enter the URL of your API endpoint, which is typically http://localhost:5000/api/ask if you're running your Flask API locally.
+
+Configure the request body:
+Click on the "Body" tab in Postman.
+Choose "form-data" as the body type.
+
+Add the file and question fields:
+Click the "Add Row" button to add two fields.
+Set the first field to "file."
+Select the file you want to upload as the value of the "file" field.
+Set the second field to "question."
+Enter a sample question as the value.
+
+Click the "Send" button:
+Click the "Send" button to send the request to your API.
+
+Observe the API response:
+Postman will display the API response in the "Response" section. You should see the answer provided by your Flask API.
+
+Repeat the process with different sample data:
+You can create multiple requests with different sample questions and PDF files to test various scenarios.
+
+That's it! You've successfully tested your Flask API using Postman with example data. This process allows you to interact with your API and verify its functionality using different input data.
